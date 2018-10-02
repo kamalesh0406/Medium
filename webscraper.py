@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import re
 
 
-page = "https://medium.com/towards-data-science"
+page = "https://medium.com/NameOfThePublication"
 
 pageContent = requests.get(page, headers={'User-Agent': 'Mozilla/5.0'})
 
